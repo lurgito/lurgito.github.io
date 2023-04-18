@@ -24,6 +24,19 @@
     <a href="https://github.com/lurgito/" style="color: white;"><i class="fab fa-github" style="font-size: 2em;"></i></a>
     <a href="main.html" class="about-button">About Me</a>
     <a href="/Resume-1.pdf" style="color: white;"><img src="/resume.png" height="35" width="35"></a></h2>
+  <script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "9320b3ff-35d3-4b41-8f9c-aeec1ab260ad", // The ID of this integration.
+    region: "us-south", // The region your integration is hosted in.
+    serviceInstanceID: "aa4a5039-ea6b-4b6a-b55f-ed1677b59572", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
   </div>
 </div>
 
