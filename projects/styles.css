@@ -1,0 +1,39 @@
+/* Reset browser default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set a colorful background */
+  body {
+    background: linear-gradient(135deg, #1e90ff 0%, #000000 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Create the frosted glass effect for the container */
+  .glass-container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+    width: 400px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Style the title and content */
+  .glass-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .glass-container p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
